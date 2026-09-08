@@ -1,0 +1,2 @@
+- [Editor choice](editor-choice.md) — why Blok over Builder/Atelier/TipTap/GrapesJS, and the eliminated alternatives
+- [JS pipeline](js-pipeline.md) — custom blocks are host-built ES modules, self-registered, not bundled by this package
