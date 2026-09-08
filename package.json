@@ -1,0 +1,16 @@
+{
+    "name": "@dezodev/filament-blok-field",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "build": "node bin/build.js",
+        "dev": "node bin/build.js --dev"
+    },
+    "dependencies": {
+        "@bloklabs/core": "^0.1.0"
+    },
+    "devDependencies": {
+        "esbuild": "^0.24.0"
+    }
+}

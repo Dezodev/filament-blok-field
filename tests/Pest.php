@@ -1,0 +1,5 @@
+<?php
+
+use Dezodev\FilamentBlokField\Tests\TestCase;
+
+uses(TestCase::class)->in(__DIR__);

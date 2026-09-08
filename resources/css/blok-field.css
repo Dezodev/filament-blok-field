@@ -1,0 +1,7 @@
+.blok-editor {
+    min-height: 12rem;
+}
+
+.blok-editor .codex-editor {
+    min-height: inherit;
+}
