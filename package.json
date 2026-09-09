@@ -8,7 +8,7 @@
         "dev": "node bin/build.js --dev"
     },
     "dependencies": {
-        "@bloklabs/core": "^0.1.0"
+        "@bloklabs/core": "^1.13.0"
     },
     "devDependencies": {
         "esbuild": "^0.24.0"

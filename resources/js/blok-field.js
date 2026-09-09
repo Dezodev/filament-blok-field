@@ -1,4 +1,4 @@
-import { Editor } from '@bloklabs/core'
+import { Blok } from '@bloklabs/core'
 
 /**
  * Custom block modules self-register their BlockTool class here on load
@@ -13,12 +13,12 @@ document.addEventListener('alpine:init', () => {
         state,
 
         init() {
-            this.editor = new Editor({
+            this.editor = new Blok({
                 holder: this.$el,
                 data: this.state ?? { blocks: [] },
                 tools: { ...window.FilamentBlokFieldBlocks },
-                onChange: async (api) => {
-                    this.state = await api.saver.save()
+                onSave: (data) => {
+                    this.state = data
                 },
             })
 
