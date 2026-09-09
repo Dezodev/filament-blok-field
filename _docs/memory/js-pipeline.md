@@ -5,6 +5,10 @@ metadata:
   type: project
 ---
 
+See [[blok-api]] for the real `@bloklabs/core` API (class name `Blok`, `onSave` vs `onChange`)
+confirmed once the package was actually installed — this memory's block-registration pattern still
+holds unchanged.
+
 Decision (2026-09-08, at scaffold time): a custom block's JS `BlockTool` is built and shipped by
 the **host app**, not by this package. The host app's `BlokBlock::script()` returns the built
 module URL, and the package loads it via `FilamentAsset::register(..., )->module()` alongside
