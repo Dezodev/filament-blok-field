@@ -67,10 +67,8 @@ composer format
 
 ## Status
 
-Early scaffold - the field, provider and custom-block contract are wired end to end, but several
-points from the design brief are not settled yet: the exact Livewire sync trigger (debounce vs.
-explicit save), server-side sanitization of block-rendered HTML, and JS test coverage once custom
-blocks grow in number.
+Early scaffold - the field, provider and custom-block contract are wired end to end. See
+[_docs/TODO.md](_docs/TODO.md) for what's left open.
 
 ## License
 
