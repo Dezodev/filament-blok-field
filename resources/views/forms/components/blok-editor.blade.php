@@ -15,7 +15,7 @@
         x-load
         x-load-css="[@js($styleHref)]"
         x-load-js="[@foreach ($scriptSources as $source) @js($source), @endforeach]"
-        x-data="blokEditor({ state: $wire.entangle('{{ $statePath }}') })"
+        x-data="blokEditor({ state: $wire.entangle('{{ $statePath }}').live() })"
         class="blok-editor"
     ></div>
 </x-dynamic-component>
